@@ -1,0 +1,73 @@
+body {
+    background-color: #EDE4D3;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.highlight {
+    background-color: #B88548;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    color: #815E32; /* Couleur par défaut pour tous les liens */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+h2  {
+   
+    background-color: #A68F6D;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+.video-container {
+    width: 640px; /* Largeur souhaitée */
+    height: 360px; /* Hauteur souhaitée */
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video {
+        object-fit: cover;
+     /* defni comment est redimentionner un contenu par rapoort au container: ; */
+    height: 100%;
+    width: 50%;
+    border: 5px  #A68F6D solid; /* Épaisseur de la bordure */
+    border-radius: 10px;
+  }
+
+
+/* nav */
+
+.navcontainer{
+    border: 2px solid #815E32;
+    background-color: #A68F6D;
+    display: inline-flex;
+    gap: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    }
+    
+    .navitem{
+        font-size: 1.5rem;
+        margin-inline: 0.5rem ;
+        color: white;
+        text-decoration: none;
+        background-color: #B88548;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        }

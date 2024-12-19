@@ -1,9 +1,0 @@
-h1{
-    background-color: bisque;
-    padding: 10px;
-    display: block; /* Permet au titre de prendre toute la largeur */
-    text-align: center; /* Centre le texte horizontalement */
-    margin: 0 auto; /* Centre le bloc */
-    max-width: 90%; /* Limite la largeur sur mobile */
-    word-wrap: break-word; /* Évite que les mots dépassent */
-}
